@@ -2,7 +2,7 @@
 
 The yaml plugin for sshpiperd is a simple plugin that allows you to use single yaml file to configure your sshpiperd.
 
-some basic idea of yaml config file:
+Some basic idea of yaml config file:
 
  * first matched `pipe` will be used.
  * any `from` in `pipe` fits `downstream` authentication will be considered as the `pipe` matched.
@@ -21,10 +21,8 @@ sshpiperd yaml --config /path/to/sshpiperd.yaml
 
 ### options
 
-```
-   --config value   path to yaml config file [$SSHPIPERD_YAML_CONFIG]
-   --no-check-perm  disable 0400 checking (default: false) [$SSHPIPERD_YAML_NOCHECKPERM]
-```
+    --config value   path to yaml config file [$SSHPIPERD_YAML_CONFIG]
+    --no-check-perm  disable 0400 checking (default: false) [$SSHPIPERD_YAML_NOCHECKPERM]
 
 ## Config example
 

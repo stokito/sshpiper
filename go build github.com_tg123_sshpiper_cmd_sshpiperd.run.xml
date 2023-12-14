@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build github.com/tg123/sshpiper/cmd/sshpiperd" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <module name="sshpiper" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="--server-key ssh_host_ed25519_key ./out/fixed --target 192.168.1.1:2222" />
+    <envs>
+      <env name="SSHPIPERD_FIXED_TARGET8" value="127.0.0.1:22" />
+      <env name="SSHPIPERD_SERVER_KEY8" value="./ssh_host_ed25519_key" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/tg123/sshpiper/cmd/sshpiperd" />
+    <directory value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
